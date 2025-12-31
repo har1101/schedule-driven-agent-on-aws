@@ -10,6 +10,7 @@ from tools import http_get, sleep_seconds, current_time, update_next_schedule
 from bedrock_agentcore.memory.integrations.strands.config import AgentCoreMemoryConfig, RetrievalConfig
 from bedrock_agentcore.memory.integrations.strands.session_manager import AgentCoreMemorySessionManager
 
+
 log = logging.getLogger("AsyncAgent")
 logging.basicConfig(level=logging.INFO)
 
